@@ -605,32 +605,32 @@ On a scale of 1-10 how bitchy would you say you are?
 On a scale of 1-10 how polite would you say you are?
 On a scale of 1-10 how attractive would you say you are?
 If you could be any famous person who would you be and why?
-Whats your favourite animal beginning with the letter A?
-Whats your favourite item of clothing beginning with the letter B?
-Whats your favourite expleitive beginning with the letter C?
-Whats your favourite boys name beginning with the letter D?
-Whats your favourite girls name beginning with the letter E?
-Whats your favourite book beginning with the letter F?
-Whats your favourite bodypart beginning with the letter G?
-Whats your favourite musical instrument beginning with the letter H?
-Whats your favourite song beginning with the letter I?
-Whats your favourite actress beginning with the letter J?
-Whats your favourite actor beginning with the letter K?
-Whats your favourite film beginning with the letter L?
-Whats your favourite tv show beginning with the letter M?
-Whats your favourite game beginning with the letter N?
-Whats your favourite non alcoholic drink beginning with the letter O?
-Whats your favourite food beginning with the letter P?
-Whats your favourite band beginning with the letter Q?
-Whats your favourite author beginning with the letter R?
-Whats your favourite sport beginning with the letter S?
-Whats your favourite job beginning with the letter T?
-Whats your favourite mythical creature beginning with the letter U?
-Whats your favourite alcoholic drink beginning with the letter V?
-Whats your favourite cartoon character beginning with the letter W?
-Whats your favourite word beginning with the letter X?
-Whats your favourite city beginning with the letter Y?
-Whats your favourite country beginning with the letter Z?
+Whats your favourite animal?
+Whats your favourite item of clothing?
+Whats your favourite expleitive?
+Whats your favourite boys name?
+Whats your favourite girls name?
+Whats your favourite book?
+Whats your favourite bodypart?
+Whats your favourite musical instrument?
+Whats your favourite song?
+Whats your favourite actress?
+Whats your favourite actor?
+Whats your favourite film?
+Whats your favourite tv show?
+Whats your favourite game?
+Whats your favourite non alcoholic drink?
+Whats your favourite food?
+Whats your favourite band?
+Whats your favourite author?
+Whats your favourite sport?
+Whats your favourite job?
+Whats your favourite mythical creature?
+Whats your favourite alcoholic drink?
+Whats your favourite cartoon character?
+Whats your favourite word?
+Whats your favourite city?
+Whats your favourite country?
 Do you get seasick?
 If you discovered a new species of dinosaur what would you call it?
 Do you own a paddling pool?
@@ -1232,28 +1232,7 @@ If you were to remake a movie, what actors would you cast?
 If you were to replace a character in your favourite movie, who would you replace with who?
 Under rated actor who deserves to be famous in your opinion?
 Who’s your favourite celebrity with the same birthday or name as you?
-What’s your favorite movie beginning with the letter A?
-What’s your fav movie beginning with the letter B?
-What’s your fav movie beginning with the letter C?
-What’s your fav movie beginning with the letter D?
-What’s your fav movie beginning with the letter E?
-What’s your fav movie beginning with the letter F?
-What’s your fav movie beginning with the letter G?
-What’s your fav movie beginning with the letter H?
-What’s your fav movie beginning with the letter I?
-What’s your fav movie beginning with the letter J?
-What’s your fav movie beginning with the letter K?
-What’s your fav movie beginning with the letter L?
-What’s your fav movie beginning with the letter M?
-What’s your fav movie beginning with the letter N?
-What’s your fav movie beginning with the letter O?
-What’s your fav movie beginning with the letter P?
-What’s your fav movie beginning with the letter S?
-What’s your fav movie beginning with the letter Q?
-What’s your fav movie beginning with the letter V?
-What’s your fav movie beginning with the letter X?
-What’s your fav movie beginning with the letter Y?
-What’s your fav movie beginning with the letter Z?
+What’s your favorite movie?
 What movie would you wish to come to life?
 Movies you think one should watch before dying?
 Favourite actor who has not won a oscar yet?
@@ -1575,28 +1554,7 @@ What is your favourite cheat in GTA?
 What car do you prefer to drive in GTA?
 Hardest mission you’ve done in GTA?
 Easiest mission you’ve done in GTA?
-What’s your favourite game beginning with the letter A?
-What’s your favourite game beginning with the letter B?
-What’s your favourite game beginning with the letter C?
-What’s your favourite game beginning with the letter D?
-What’s your favourite game beginning with the letter E?
-What’s your favourite game beginning with the letter F?
-What’s your favourite game beginning with the letter G?
-What’s your favourite game beginning with the letter H?
-What’s your favourite game beginning with the letter I?
-What’s your favourite game beginning with the letter J?
-What’s your favourite game beginning with the letter K?
-What’s your favourite game beginning with the letter L?
-What’s your favourite game beginning with the letter M?
-What’s your favourite game beginning with the letter N?
-What’s your favourite game beginning with the letter O?
-What’s your favourite game beginning with the letter P?
-What’s your favourite game beginning with the letter S?
-What’s your favourite game beginning with the letter Q?
-What’s your favourite game beginning with the letter V?
-What’s your favourite game beginning with the letter X?
-What’s your favourite game beginning with the letter Y?
-What’s your favourite game beginning with the letter Z?
+What’s your favourite game?
 Do you usually win or lose when playing against friends?
 What are your parents inputs on you gaming?
 What type of games do you like to play with your partner?
@@ -1631,8 +1589,7 @@ What impact do you think phone’s have had on the world?
 Life without smartphone be like?
 Have you ever did a prank call on anyone? If so, who and how did you prank them?
 What was their reaction?
-Have you ever been prank called?
-What was your reaction?
+Have you ever been prank called? What was your reaction?
 Favourite smartphone logo?
 Your favourite iphone?
 Your favourite samsung phone?
@@ -1650,28 +1607,7 @@ Worst app you’ve installed?
 Do you prefer free or paid apps?
 Have you bought any paid apps? If so which?
 Most expensive paid app you bought and were you satisfied with it?
-What’s your favourite mobile app beginning with the letter A?
-What’s your favourite mobile app beginning with the letter B?
-What’s your favourite mobile app beginning with the letter C?
-What’s your favourite mobile app beginning with the letter D?
-What’s your favourite mobile appbeginning with the letter E?
-What’s your favourite mobile app beginning with the letter F?
-What’s your favourite mobile app beginning with the letter G?
-What’s your favourite mobile app beginning with the letter H?
-What’s your favourite mobile app beginning with the letter I?
-What’s your favourite mobile app beginning with the letter J?
-What’s your favourite mobile app beginning with the letter K?
-What’s your favourite mobile app beginning with the letter L?
-What’s your favourite mobile app beginning with the letter M?
-What’s your favourite mobile app beginning with the letter N?
-What’s your favourite mobile app beginning with the letter O?
-What’s your favourite mobile app beginning with the letter P?
-What’s your favourite mobile app beginning with the letter S?
-What’s your favourite mobile app beginning with the letter Q?
-What’s your favourite mobile app beginning with the letter V?
-What’s your favourite mobile app beginning with the letter X?
-What’s your favourite mobile app beginning with the letter Y?
-What’s your favourite mobile app beginning with the letter Z?
+What’s your favourite mobile app?
 How do you usually take your photos? (With camera, phone? etc)
 What software do you use to backup your photos?
 Total number of photos you’ve in your gallery?
