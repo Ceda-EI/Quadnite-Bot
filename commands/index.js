@@ -70,7 +70,7 @@ module.exports = (bot, [ questions, kys, insults, commands_list, words, roleplay
 	bot.command("donate", (ctx) => ctx.reply("Thanks for considering to donate."
 		+ " To support the development and hosting of Quadnite Bot, you can "
 		+ "donate here: https://liberapay.com/ceda_ei/"));
-	bot.hears(/(\d*)d(\d+)(\s*([-+])\s*(\d+))?/, dice());
+	bot.hears(/(\d*)d(\d+)(\s*([-+])\s*(\d+))?/i, dice());
 
 	function getGetGif(command) {
 
