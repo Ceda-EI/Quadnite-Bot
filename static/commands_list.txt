@@ -59,3 +59,15 @@ yes
 help - Need help? Go here
 feedback - Send feedback, suggestion for kys, insult text
 rate - Rate me on TGDR
+
+<b>Dice</b>
+
+Simply mentioning a dice in a message will send the results
+
+<code>[num]d[sides] [modifier]</code>
+
+<i>num</i> is the number of the dices to roll. (Optional)
+<i>sides</i> is the number of sides of the dice. (Required)
+<i>modifier</i> is in the form of + or - followed by a number. (Optional)
+
+<i>Examples</i>: 1d6, 2d10 + 5, 3d20 - 2, 2d20

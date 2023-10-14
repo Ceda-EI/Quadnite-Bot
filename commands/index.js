@@ -10,6 +10,7 @@ const info = require("./info");
 const expand = require("./expand");
 const roleplay = require("./roleplay");
 const suggest = require("./suggest");
+const dice = require("./dice");
 
 module.exports = (bot, [ questions, kys, insults, commands_list, words, roleplay_data ], feedback_id, apiToken, ugokiRoot, axios) => {
 
@@ -69,6 +70,7 @@ module.exports = (bot, [ questions, kys, insults, commands_list, words, roleplay
 	bot.command("donate", (ctx) => ctx.reply("Thanks for considering to donate."
 		+ " To support the development and hosting of Quadnite Bot, you can "
 		+ "donate here: https://liberapay.com/ceda_ei/"));
+	bot.hears(/(\d*)d(\d+)(\s*([-+])\s*(\d+))?/, dice());
 
 	function getGetGif(command) {
 
