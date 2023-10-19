@@ -15,13 +15,13 @@ module.exports = () => async (ctx) => {
 		.map((i) => `_You roll a_ *D${diceSides}* _and get a_ *${i}*`)
 		.join("\n");
 	let totalMessage = "";
-	if (numDice > 1 || ctx.match[3])
+	if (numDice > 1 || ctx.match[4])
 		totalMessage = `*Total:* ${total}`;
 
-	if (ctx.match[3]) {
+	if (ctx.match[4]) {
 
-		const modifier = parseInt(ctx.match[5]);
-		const sign = ctx.match[4];
+		const modifier = parseInt(ctx.match[6]);
+		const sign = ctx.match[5];
 		if (sign === "+") totalMessage += ` + ${modifier} = ${total + modifier}`;
 		else totalMessage += ` - ${modifier} = ${total - modifier}`;
 
