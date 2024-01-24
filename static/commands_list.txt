@@ -62,8 +62,6 @@ rate - Rate me on TGDR
 
 <b>Dice</b>
 
-Simply mentioning a dice in a message will send the results
-
 <code>[num]d[sides] [modifier]</code>
 
 <i>num</i> is the number of the dices to roll. (Optional)
