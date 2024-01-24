@@ -5,7 +5,7 @@ module.exports = () => (ctx) => {
 	text += `Message ID: \`${msg.message_id}\`\n`;
 	text += `Chat ID: \`${msg.chat.id}\`\n`;
 	text += `User ID: \`${msg.from.id}\`\n`;
-	if (msg.reply_to_message) {
+	if (ctx.message.reply_to_message && !ctx.message.reply_to_message.is_topic_message) {
 
 		const reply = msg.reply_to_message;
 		text += "\n*Reply to*\n";

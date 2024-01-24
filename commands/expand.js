@@ -37,7 +37,7 @@ module.exports = (words = []) => (ctx) => {
 
 	} else {
 
-		if (ctx.message.reply_to_message)
+		if (ctx.message.reply_to_message && !ctx.message.reply_to_message.is_topic_message)
 			return expand(words, ctx.message.reply_to_message.text);
 		else
 			return "Need text to expand. Send /expand text or reply to a "

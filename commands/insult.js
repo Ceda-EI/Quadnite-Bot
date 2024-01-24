@@ -1,6 +1,6 @@
 module.exports = (random, kys, default_text, bot_text, excluded_names) => (ctx) => {
 
-	if (ctx.message.reply_to_message) {
+	if (ctx.message.reply_to_message && !ctx.message.reply_to_message.is_topic_message) {
 
 		const { from } = ctx.message.reply_to_message;
 		const name = from.username ? "@" + from.username : from.first_name;

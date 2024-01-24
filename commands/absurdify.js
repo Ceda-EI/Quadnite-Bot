@@ -16,7 +16,7 @@ module.exports = () => (ctx) => {
 
 	} else {
 
-		if (ctx.message.reply_to_message)
+		if (ctx.message.reply_to_message && !ctx.message.reply_to_message.is_topic_message)
 			return absurdify(ctx.message.reply_to_message.text);
 		else
 			return "Need text to absurdify. Send /absurdify text or reply to a"

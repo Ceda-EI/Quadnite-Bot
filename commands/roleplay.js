@@ -14,7 +14,7 @@ module.exports = (forms, getGif) => (ctx) => {
 		.match(/^((@\w+(\s+|$))*)(.*)/);
 	const users = message[1].trim().split(" ").filter(i => i.length);
 	const rtm = ctx.message.reply_to_message;
-	if (rtm)
+	if (rtm && !rtm.is_topic_message)
 		users.push(rtm.from.username ? "@" + rtm.from.username
 			: rtm.from.first_name);
 	const reason = message[4];

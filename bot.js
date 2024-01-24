@@ -1,4 +1,4 @@
-const Telegraf = require("telegraf");
+const { Telegraf } = require("telegraf");
 const { BOT_API_KEY, FEEDBACK_ID, UGOKI_ROOT } = process.env;
 const fs = require("fs").promises;
 const commands = require("./commands");
