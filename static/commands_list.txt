@@ -54,10 +54,10 @@ twerk       wag
 wave        wink
 yes
 </code>
-<b>Miscallenous</b>
+<b>Miscellaneous</b>
 
 help - Need help? Go here
-feedback - Send feedback, suggestion for kys, insult text
+feedback - Send feedback, suggestions for kys, insult text
 rate - Rate me on TGDR
 
 <b>Dice</b>
