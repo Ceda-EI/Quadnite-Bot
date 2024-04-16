@@ -55,7 +55,7 @@ module.exports = (bot, [ questions, kys, insults, commands_list, words, roleplay
 			"Markdown"}));
 	bot.command("weebify", (ctx) => ctx.reply(weebify()(ctx)));
 	bot.command("absurdify", (ctx) => ctx.reply(absurdify()(ctx)));
-	bot.command("feedback", (ctx) => ctx.reply(feedback(feedback_id)(ctx)));
+	bot.command("feedback", (ctx) => ctx.reply(feedback(bot, feedback_id)(ctx)));
 	bot.command("wiki", (ctx) => media_wiki(axios,
 		"https://en.wikipedia.org/w/api.php")(ctx).then(x => ctx.reply(x,
 		{parse_mode: "HTML"})));
