@@ -67,9 +67,6 @@ module.exports = (bot, [ questions, kys, insults, commands_list, words, roleplay
 	bot.command("start", (ctx) => ctx.reply("Hi, I am Quadnite. If you are "
 		+ "chatting with me in private, you are most likely doing it wrong. "
 		+ "Add me to a group for fun. To give feedback, use /feedback"));
-	bot.command("donate", (ctx) => ctx.reply("Thanks for considering to donate."
-		+ " To support the development and hosting of Quadnite Bot, you can "
-		+ "donate here: https://liberapay.com/ceda_ei/"));
 	bot.hears(/^\/?(\d*)d(\d+)(@\w+)?(\s*([-+])\s*(\d+))?$/i, dice());
 
 	function getGetGif(command) {
