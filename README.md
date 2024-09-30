@@ -13,4 +13,6 @@ roleplay gifs. Once you have an instance of Ugoki (and optionally
 - `export BOT_API_KEY="your-token-for-bot"`
 - `export FEEDBACK_ID="chat-id-where-feedback-is-forwarded-to"`
 - `export UGOKI_ROOT="https://root.of.ugoki.api/server/"`
+- `export RATE_TIMEFRAME=5000 # rate limit time interval in milliseconds`
+- `export RATE_LIMIT=5 # number of requests allowed in the timeframe`
 - `npm start`
