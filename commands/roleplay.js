@@ -38,7 +38,7 @@ module.exports = (forms, getGif) => (ctx) => {
 		reply = forms.none
 			.replace("{}", user);
 
-	getGif()
+	return getGif()
 		.then(gif => ctx.replyWithAnimation(gif.data.url, {caption: reply}));
 
 };

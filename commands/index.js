@@ -21,7 +21,7 @@ module.exports = (bot, [ questions, kys, insults, commands_list, words, roleplay
 		.then(bot_user => {
 
 			const default_text = (command, text) => `Do you want to ${text} `
-				+ `yourself?\nIf no, reply to someone with /${command} to kill`
+				+ `yourself?\nIf no, reply to someone with /${command} to ${command}`
 				+ ` them or run /${command} username/name.\nYou can suggest `
 				+ `more /${command} replies using /feedback`;
 
