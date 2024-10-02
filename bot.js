@@ -9,11 +9,10 @@ const { limit } = require("@grammyjs/ratelimiter");
 const bot = new Telegraf(BOT_API_KEY);
 bot.catch((err) => console.log(err));
 bot.use(limit({
-    // default config: 5 messages per 5 seconds
-    timeFrame: RATE_TIMEFRAME ?? 5000,
-    limit: RATE_LIMIT ?? 5,
-
-    onLimitExceeded: (ctx, next) => ctx.reply('Too many requests!'),
+	// default config: 1 message per 1 second
+	timeFrame: RATE_TIMEFRAME ?? 1000,
+	limit: RATE_LIMIT ?? 1,
+	keyGenerator: (ctx) => ctx.chat?.id.toString() ?? ctx.from?.id.toString(),
 }))
 
 const data = [
