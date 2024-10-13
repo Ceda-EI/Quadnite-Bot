@@ -5,16 +5,18 @@ module.exports = (bot, feedback_id) => (ctx) => {
 
 		const from = ctx.message.from;
 		let contactable = "The developer might contact you regarding your feedback.";
+		let message;
 		if (from.username) {
 
-			bot.telegram.sendMessage(feedback_id, `Feedback from: @${from.username}`);
+			message = `Feedback from: @${from.username}`;
 
 		} else {
 
 			contactable = "The developer might not be able to contact you due to lack of your username.";
+			message = `Feedback from User ${from.id}`;
 
 		}
-		ctx.forwardMessage(feedback_id);
+		bot.telegram.sendMessage(feedback_id, `${message} ${ctx.message.text}`).catch(console.log);
 		return `Thanks for the feedback! ${contactable}`;
 
 	} else {
